@@ -2,10 +2,6 @@
  
 Upload a photo of a plant leaf and LeafGuard tells you the likely disease, how confident it is, the top‑3 alternatives, and plain‑language next steps. It also shows **where on the leaf** the model looked, using an occlusion‑sensitivity heat‑map.
  
-**🔗 Live demo:** https://huggingface.co/spaces/shhreyyyanshh/leaguard
- 
-> Deep Learning PBL project · B.Tech CSE (AI/ML), UPES Dehradun
- 
 ## Features
 - **Disease classification** across 14 plants / 38 classes (PlantVillage) with transfer learning (MobileNetV2 or ResNet18, ImageNet‑pretrained)
 - **Automatic leaf detection**: finds the leaf, crops it onto a neutral background, then classifies
